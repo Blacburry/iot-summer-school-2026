@@ -35,7 +35,3 @@ An embedded system application that controls the blinking rate of an LED using a
 
 ## Expected Output
 * **Hardware Behavior:** Turning the rotary potentiometer shaft changes the LED's blinking rate seamlessly. Rotating it toward 5V decreases the loop delay (faster blink); rotating it toward GND increases the delay (slower blink).
-* **Serial Monitor Stream:** Continuous lines printing current metrics in the format:
-  ```text
-  Blink count: 1 | Delay: 512 ms
-  Blink count: 2 | Delay: 512 ms

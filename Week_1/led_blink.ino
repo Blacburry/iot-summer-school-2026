@@ -41,6 +41,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   int POT_VALUE = analogRead(POT_PIN);
   Serial.println(POT_VALUE);
+  if (POT_VALUE == 0) POT_VALUE = 1;
   float time = (5000.0/1024.0)*POT_VALUE;
   digitalWrite(LED_PIN, HIGH);
   delay(time);
