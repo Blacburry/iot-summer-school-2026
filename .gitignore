@@ -67,3 +67,19 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+# --- Arduino / C++ Compiled Outputs ---
+*.hex
+*.elf
+*.o
+*.a
+*.d
+
+# --- IDE and Build Directories ---
+.vscode/
+build/
+.build/
+local.properties
+
+# --- OS-Specific Temporary Files ---
+.DS_Store
+Thumbs.db
